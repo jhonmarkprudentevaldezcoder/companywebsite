@@ -17,8 +17,8 @@ export default function Nav() {
         >
           <span>LOGO</span>
         </motion.div>
-        <div className="hidden">
-          <ul>
+        <div className="hidden md:flex">
+          <ul className="flex flex-row gap-12">
             <li>
               <Link href={"/"}>Home</Link>
             </li>
@@ -43,6 +43,7 @@ export default function Nav() {
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.1, delay: 0.6 }}
+          className="md:hidden"
         >
           <span
             className="text-3xl cursor-pointer"
