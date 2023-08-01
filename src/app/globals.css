@@ -7,3 +7,6 @@
   @apply bg-[#373a38] hover:bg-[#713f12] transition-all ease-in-out delay-75 duration-300 text-white w-full mb-1 p-2 cursor-pointer rounded-sm;
 }
 
+.icon{
+  @apply text-2xl;
+}
